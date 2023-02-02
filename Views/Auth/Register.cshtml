@@ -1,0 +1,10 @@
+﻿@model AuthMvc.ViewModels.RegisterVM
+
+<form asp-action="Register">
+    <input asp-for="FirstName" placeholder="Enter first name" class="form-control"/>
+    <input asp-for="LastName" placeholder="Enter Last name" class="form-control" />
+    <input asp-for="UserName" placeholder="Enter UserName" class="form-control" />
+    <input asp-for="Email" placeholder="Enter Email" class="form-control" />
+    <input asp-for="Password" placeholder="Enter Password" class="form-control" />
+    <input type="submit" value="Register" />
+</form>
